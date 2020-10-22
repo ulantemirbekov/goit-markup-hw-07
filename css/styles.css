@@ -639,6 +639,7 @@ footer .social-list-svg {
 	width: 1px !important;
 	overflow: hidden;
 }
+
 /* end hidden */
 
 .modal-svg {
@@ -757,21 +758,15 @@ footer .social-list-svg {
 }
 
 .modal-form-accept-label {
-	margin-bottom: 30px;
 	display: flex;
 	align-items: center;
+	margin: 0 auto;
+	margin-bottom: 30px;
 }
 
 .modal-form-accept:checked + .modal-form-accept-label::before {
 	border: none;
 	background-image: url("../img/icon-check.svg");
-}
-
-.modal-form-accept-label {
-	display: flex;
-	align-items: center;
-	margin: 0 auto;
-	margin-bottom: 20px;
 }
 
 .modal-form-accept-label::before {
