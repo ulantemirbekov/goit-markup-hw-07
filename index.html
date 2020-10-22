@@ -54,7 +54,7 @@
 
     <!-- Main -->
     <main>
-      <!-- Hero -->
+        <!-- Hero -->
       <section class="hero">
         <div class="container">
             <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
@@ -62,7 +62,7 @@
         </div>
       </section>
 
-      <!-- Features -->
+        <!-- Features -->
       <section class="section features">
         <div class="container">
           <!-- <h2  hidden>Особенности</h2> -->
@@ -121,7 +121,7 @@
         </div>
       </section>
 
-      <!-- Works -->
+        <!-- Works -->
       <section class="section works">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
@@ -142,7 +142,7 @@
         </div>
       </section>
 
-      <!-- Team -->
+        <!-- Team -->
       <section class="section team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
@@ -299,7 +299,7 @@
         </div>
       </section>
 
-      <!-- Clients -->
+        <!-- Clients -->
       <section class="section clients">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
@@ -409,49 +409,52 @@
       </div>
     </footer>
 
+        <!-- Backdrop  -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" data-modal-close class="close-modal">
-          <svg class="close-svg">
+          <svg class="modal__close-svg">
             <use href="./img/modal-icons.svg#icon-close"></use>
           </svg>
         </button>
-        <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <h2 class="modal__title">Оставьте свои данные, мы вам перезвоним</h2>
+        
         <form action="" class="modal-form">
 
-          <div class="modal-form-field">
-            <input type="text" name="user-name" id="user-name" class="modal-form-input">
-            <label class="modal-form-input-label" for="user-name">Имя</label>
-            <svg class="modal-svg">
+          <div class="modal-form__field">
+            <input type="text" name="user-name" id="user-name" class="modal-form__input">
+            <label class="modal-form__input-label" for="user-name">Имя</label>
+            <svg class="modal-form__svg">
               <use href="./img/modal-icons.svg#icon-person"></use>
             </svg>
           </div>
           
-          <div class="modal-form-field">
-            <input type="tel" name="user-phone" id="user-phone" class="modal-form-input">
-            <label class="modal-form-input-label" for="user-phone">Телефон</label>
-            <svg class="modal-svg">
+          <div class="modal-form__field">
+            <input type="tel" name="user-phone" id="user-phone" class="modal-form__input">
+            <label class="modal-form__input-label" for="user-phone">Телефон</label>
+            <svg class="modal-form__svg">
               <use href="./img/modal-icons.svg#icon-phone"></use>
             </svg>
           </div>
           
-          <div class="modal-form-field">
-            <input type="email" name="user-email" id="user-email" class="modal-form-input">
-            <label class="modal-form-input-label" for="user-email">Почта</label>
-            <svg class="modal-svg">
+          <div class="modal-form__field">
+            <input type="email" name="user-email" id="user-email" class="modal-form__input">
+            <label class="modal-form__input-label" for="user-email">Почта</label>
+            <svg class="modal-form__svg">
               <use href="./img/modal-icons.svg#icon-email"></use>
             </svg>
           </div>
           
-          <label class="modal-form-message-label" for="user-message">Комментарий</label>
-          <textarea name="user-message" id="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+          <label class="modal-form__message-label" for="user-message">Комментарий</label>
+          <textarea name="user-message" id="user-message" class="modal-form__message" placeholder="Введите текст"></textarea>
                     
-          <input type="checkbox" class="modal-form-accept is-hidden" name="user-accept" id="user-accept" class="modal-form-accept is-hidden">
-          <label for="user-accept" class="modal-form-accept-label">
-          <span>Соглашаюсь с рассылкой и принимаю <a href="#" class="modal-form-accept-link">Условия договора</a></span> 
-          </label>
+          <input type="checkbox" class="modal-form__accept is-hidden" name="user-accept" id="user-accept">
+          <label for="user-accept" class="modal-form__accept-label">
+          <span>Соглашаюсь с рассылкой и принимаю <a href="#" class="modal-form__accept-link">Условия договора</a></span> 
+          </label> 
 
-          <button type="button" class="button modal-button">Отправить</button>
+          <button type="button" class="button modal__button">Отправить</button>
 
         </form>
       </div>

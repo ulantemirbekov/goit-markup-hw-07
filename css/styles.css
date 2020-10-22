@@ -591,7 +591,7 @@ button {
 	padding-top: 40px;
 }
 
-.close-svg {
+.modal__close-svg {
 	width: 18px;
 	height: 18px;
 	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -639,7 +639,7 @@ button {
 
 /* end hidden */
 
-.modal-svg {
+.modal-form__svg {
 	width: 18px;
 	height: 18px;
 	position: absolute;
@@ -650,7 +650,7 @@ button {
 	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-title {
+.modal__title {
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.15;
@@ -664,31 +664,31 @@ button {
 	flex-direction: column;
 }
 
-.modal-form-input:focus,
-.modal-form-message:focus {
+.modal-form__input:focus,
+.modal-form__message:focus {
 	outline: none;
 }
 
-.modal-form-input:hover,
-.modal-form-input:focus,
-.modal-form-message:hover,
-.modal-form-message:focus {
+.modal-form__input:hover,
+.modal-form__input:focus,
+.modal-form__message:hover,
+.modal-form__message:focus {
 	border: 1px solid var(--accent-color);
 }
 
-.modal-form-input:hover ~ .modal-svg {
+.modal-form__input:hover ~ .modal-form__svg {
 	fill: var(--accent-color);
 }
 
-.modal-form-input:focus ~ .modal-svg {
+.modal-form__input:focus ~ .modal-form__svg {
 	fill: var(--accent-color);
 }
 
-.modal-form-message:not(:placeholder-shown) {
+.modal-form__message:not(:placeholder-shown) {
 	border-color: var(--accent-color);
 }
 
-.modal-form-input {
+.modal-form__input {
 	width: 100%;
 	height: 40px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -697,12 +697,12 @@ button {
 	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-field {
+.modal-form__field {
 	position: relative;
 	margin-bottom: 28px;
 }
 
-.modal-form-input-label {
+.modal-form__input-label {
 	position: absolute;
 	top: -17px;
 	left: 0;
@@ -712,7 +712,7 @@ button {
 	color: var(--primary-text-color);
 }
 
-.modal-form-message {
+.modal-form__message {
 	width: 100%;
 	height: 120px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
@@ -723,7 +723,7 @@ button {
 	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-message::placeholder {
+.modal-form__message::placeholder {
 	font-size: 14px;
 	line-height: 1.14;
 	font-family: Roboto;
@@ -731,7 +731,7 @@ button {
 	color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-form-message-label {
+.modal-form__message-label {
 	font-size: 12px;
 	line-height: 1.167;
 	letter-spacing: 0.01em;
@@ -739,7 +739,7 @@ button {
 	margin-bottom: 4px;
 }
 
-.modal-form-accept-link {
+.modal-form__accept-link {
 	color: var(--accent-color);
 }
 
@@ -754,19 +754,19 @@ button {
 	background-size: cover;
 }
 
-.modal-form-accept-label {
+.modal-form__accept-label {
 	display: flex;
 	align-items: center;
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
 
-.modal-form-accept:checked + .modal-form-accept-label::before {
+.modal-form__accept:checked + .modal-form__accept-label::before {
 	border: none;
 	background-image: url("../img/icon-check.svg");
 }
 
-.modal-form-accept-label::before {
+.modal-form__accept-label::before {
 	display: block;
 	content: "";
 	width: 16px;
@@ -775,7 +775,7 @@ button {
 	margin-right: 7px;
 }
 
-.modal-button {
+.modal__button {
 	width: 200px;
 	margin: 0 auto;
 }
