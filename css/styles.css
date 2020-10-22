@@ -47,11 +47,7 @@ body {
 	width: 1200px;
 	padding-right: 15px;
 	padding-left: 15px;
-	/* margin-left: auto;
-	margin-right: auto; */
 	margin: 0 auto;
-	/* outline: 2px solid tomato;
-	background-color: teal; */
 }
 
 .social-list {
@@ -98,12 +94,12 @@ header {
 	padding-bottom: 32px;
 }
 
-header .container {
+.header .container {
 	display: flex;
 	align-items: center;
 }
 
-header .navigation {
+.navigation {
 	display: flex;
 	align-items: center;
 }
@@ -125,17 +121,17 @@ header .navigation {
 	color: #000000;
 }
 
-/* site-nav */
+/* Navigation list */
 
-.site-nav {
+.navigation__list {
 	display: flex;
 }
 
-.site-nav .item:not(:last-child) {
+.navigation__list-item:not(:last-child) {
 	margin-right: 50px;
 }
 
-.site-nav .link {
+.navigation__list-link {
 	color: var(--title-text-color);
 	text-decoration: none;
 	font-weight: 500;
@@ -145,20 +141,20 @@ header .navigation {
 	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.navigation__list-link:hover,
+.navigation__list-link:focus {
 	color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.navigation__list-link.current {
 	color: var(--accent-color);
 }
 
-.site-nav .link {
+.navigation__list-link {
 	position: relative;
 }
 
-.site-nav .link.current::after {
+.navigation__list-link.current::after {
 	content: "";
 	display: inline-block;
 	position: absolute;
@@ -170,20 +166,20 @@ header .navigation {
 	border-radius: 2px;
 }
 
-/* contacts-nav */
+/* Contacts list */
 
-.contacts-nav {
+.contacts__list {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-left: auto;
 }
 
-.contacts-nav .item:not(:last-child) {
+.contacts__list-item:not(:last-child) {
 	margin-right: 30px;
 }
 
-.contacts-nav .link {
+.contacts__list-link {
 	color: var(--primary-text-color);
 	text-decoration: none;
 	font-weight: 500;
@@ -196,19 +192,19 @@ header .navigation {
 	transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts__list-link:hover,
+.contacts__list-link:focus {
 	color: var(--accent-color);
 }
 
-header .envelope {
+.contacts__list-svg_envelope {
 	width: 16px;
 	height: 12px;
 	fill: currentColor;
 	margin-right: 10px;
 }
 
-header .phone {
+.contacts__list-svg_phone {
 	width: 10px;
 	height: 16px;
 	fill: currentColor;
@@ -796,9 +792,9 @@ footer .social-list-svg {
 
 /* Portfolio Header */
 
-.portfolio-header {
+/* .portfolio-header {
 	border-bottom: 1px solid #ececec;
-}
+} */
 
 /* Portfolio Filter */
 
