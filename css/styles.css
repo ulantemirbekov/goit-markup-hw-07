@@ -232,7 +232,7 @@ header {
 	padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
 	color: var(--primary-white-color);
 	font-weight: 900;
 	font-size: 44px;
