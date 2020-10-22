@@ -830,32 +830,32 @@ button {
 
 /* Portfolio Examples */
 
-.examples-list {
+.examples__list {
 	display: flex;
 	flex-wrap: wrap;
 	margin: -15px;
 }
 
-.examples-list .item {
+.examples__list-item {
 	margin: 15px;
 }
 
-.examples-list .item:hover,
-.examples-list .item:focus {
+.examples__list-item:hover,
+.examples__list-item:focus {
 	background: #ffffff;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.examples-overlay {
+.examples__overlay {
 	position: relative;
 	overflow: hidden;
 }
 
-.examples-list .item:hover .description {
+.examples__list-item:hover .examples__list-description {
 	transform: translateY(0);
 }
 
-.examples-list .description {
+.examples__list-description {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -876,7 +876,7 @@ button {
 	border: 1px solid #eeeeee;
 }
 
-.examples-list .name {
+.examples__list-name {
 	color: var(--title-text-color);
 	font-weight: 700;
 	font-size: 18px;
@@ -886,7 +886,7 @@ button {
 	margin-bottom: 0;
 }
 
-.examples-list .text {
+.examples__list-text {
 	color: var(--primary-text-color);
 	font-size: 16px;
 	line-height: 1.88;
