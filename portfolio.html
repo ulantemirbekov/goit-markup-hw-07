@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Шапка страницы -->
+    <header class="portfolio-header">
+      <div class="container">
+        <nav class="navigation">
+          <a href="./" aria-label="логотип компании" class="logo">Web<span class="logo-text">Studio</span> </a>
+          <!-- Навигация на другие страницы -->
+          <ul class="list site-nav">
+            <li class="item"><a href="./" class="link">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+            <li class="item"><a href="./contacts" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+    
+        <ul class="list contacts-nav">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link"> <svg class="envelope">
+                <use href="./img/sprite.svg#icon-envelope"></use>
+              </svg> info@devstudio.com
+            </a>
+          </li>
+          <li class="item"><a href="tel:+380961111111" class="link">
+              <svg class="phone">
+                <use href="./img/sprite.svg#icon-smartphone"></use>
+              </svg>+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Уникальный контент страницы -->
+    <main>
+      <!-- Portfolio -->
+      <section class="portfolio">
+        <div class="container">
+          <!-- Portfolio Filter -->
+          <!-- <h2 hidden>Фильтр работ</h2> -->
+          <ul class="list filter-list">
+            <li class="filter-item"><button type="button" class="option">Все</button></li>
+            <li class="filter-item"><button type="button" class="option">Веб-сайты</button></li>
+            <li class="filter-item"><button type="button" class="option">Приложения</button></li>
+            <li class="filter-item"><button type="button" class="option">Дизайн</button></li>
+            <li class="filter-item"><button type="button" class="option">Маркетинг</button></li>
+          </ul>
+                   
+          <!-- <div class="box">
+                <div class="overlay"></div>
+                </div> -->
+
+      <!-- Portfolio Examples -->
+          <ul class="list examples-list">
+            <li class="item">
+                  <a href="" class="link">
+                    <div class="examples-overlay">
+                     <img src="./img/works/technokryak.jpg" alt="Веб-страница сайта" width="370" height="294" />
+                     <p class="description">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                      платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.</p>
+                    </div>
+                <div class="examples-container">
+                  <h2 class="name">Технокряк</h2>
+                  <p class="text">Веб-сайт</p>
+                </div>                
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/basketballposter.jpg" alt="Постер баскетбольного матча" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="name">Постер <span lang="en">New Orlean vs Golden Star</span> </h2>
+                  <p class="text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/seafoodrestaurant.jpg" alt="Фото лого ресторана" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="name">Ресторан <span lang="en">Seafood</span> </h2>
+                 <p class="text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/prime.jpg" alt="Наушники" width="370" height="294" />
+                <div class="examples-container">
+                  <h2 class="name">Проект <span lang="en">Prime</span> </h2>
+                  <p class="text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/boxes.jpg" alt="Коробки" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="name">Проект <span lang="en">Boxes</span> </h2>
+                 <p class="text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/inspiration.jpg" alt="Веб-страница сайта" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 lang="en" class="name">Inspiration has no Borders</h2>
+                 <p class="text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/limitededition.jpg" alt="Страница журнала" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="name">Издание <span lang="en">Limited Edition</span> </h2>
+                 <p class="text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/lab.jpg" alt="Бирка с названием проекта" width="370" height="294" />
+                <div class="examples-container">
+                 <h2 class="name">Проект <span lang="en">LAB</span> </h2>
+                 <p class="text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="link">
+                <img src="./img/works/growingbusiness.jpg" alt="Ноутбук с написанием названия приложения на мониторе" width="370"
+                  height="294" />
+                <div class="examples-container">
+                 <h2 lang="en" class="name">Growing Business</h2>
+                 <p class="text">Приложение</p>
+                </div>                                
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал страницы -->
+    <footer>
+      <div class="container">
+        <div class="footer-contact">
+          <a href="./" aria-label="логотип компании" class="logo">Web<span>Studio</span></a>
+          <address>
+            <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+            <a href="mailto:info@example.com" class="mail">info@example.com</a>
+            <a href="tel:+380991111111" class="phone">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="footer-social">
+          <p class="social-list-text">Присоединяйтесь</p>
+          <ul class="social-list list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link link">
+                <svg class="social-list-svg">
+                  <use href="./img/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link link">
+                <svg class="social-list-svg">
+                  <use href="./img/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link link">
+                <svg class="social-list-svg">
+                  <use href="./img/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link link">
+                <svg class="social-list-svg">
+                  <use href="./img/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-subscribe">
+          <p class="subscribe-title">Подпишитесь на рассылку</p>
+          <form action="#" class="subscribe-form">
+            <input type="email" name="subscribe-input" id="" class="subscribe-input" placeholder="E-mail">
+            <button type="button" class="subscribe-btn button">Подписаться
+              <svg class="subscribe-send-svg">
+                <use href="./img/icon-send.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
