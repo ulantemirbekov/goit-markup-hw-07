@@ -7,10 +7,12 @@
 	padding-bottom: 94px;
 }
 
-.filter__list {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 50px;
+.filter {
+	&__list {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+	}
 
 	&__list-item:not(:last-child) {
 		margin-right: 8px;
