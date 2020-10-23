@@ -4,7 +4,8 @@
 	padding-left: 15px;
 	margin: 0 auto;
 
-	.header & {
+	.header &,
+	.footer & {
 		display: flex;
 		align-items: center;
 	}
