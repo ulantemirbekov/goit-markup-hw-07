@@ -470,15 +470,15 @@ body {
   display: flex;
 }
 
-.features__list__list-item {
+.features__list-item {
   width: 270px;
 }
 
-.features__list__list-item:not(:last-child) {
+.features__list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.features__list__list-title {
+.features__list-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;

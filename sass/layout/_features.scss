@@ -1,5 +1,7 @@
-.features__list {
-	display: flex;
+.features {
+	&__list {
+		display: flex;
+	}
 
 	&__list-item {
 		width: 270px;
@@ -18,26 +20,26 @@
 		margin-top: 0;
 		margin-bottom: 10px;
 	}
-}
 
-.features__list-svg {
-	display: flex;
-	margin-bottom: 30px;
-}
-
-.features__list-svg-item {
-	width: 270px;
-	height: 120px;
-	padding: 25px 100px;
-	background: #f5f4fa;
-	border-radius: 4px;
-
-	&:not(:last-child) {
-		margin-right: 30px;
+	&__list-svg {
+		display: flex;
+		margin-bottom: 30px;
 	}
-}
 
-.features__svg {
-	width: 70px;
-	height: 70px;
+	&__list-svg-item {
+		width: 270px;
+		height: 120px;
+		padding: 25px 100px;
+		background: #f5f4fa;
+		border-radius: 4px;
+
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+
+	&__svg {
+		width: 70px;
+		height: 70px;
+	}
 }
