@@ -62,11 +62,13 @@
 	}
 }
 
-.contacts__list {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-left: auto;
+.contacts {
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+	}
 
 	&__list-item:not(:last-child) {
 		margin-right: 30px;
