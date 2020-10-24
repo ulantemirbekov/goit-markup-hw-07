@@ -20,7 +20,7 @@
 
 	&__list-option {
 		background-color: #f5f4fa;
-		color: var(--title-text-color);
+		color: $title-text-color;
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 1.63;
@@ -33,8 +33,8 @@
 
 		&:hover,
 		&:focus {
-			background-color: var(--accent-color);
-			color: var(--primary-white-color);
+			background-color: $accent-color;
+			color: $primary-white-color;
 			cursor: pointer;
 		}
 	}
@@ -70,7 +70,7 @@
 		height: 100%;
 		font-size: 18px;
 		line-height: 1.556;
-		color: var(--primary-white-color);
+		color: $primary-white-color;
 		background-color: rgba(33, 150, 243, 0.9);
 		padding: 63px 24px;
 		transform: translateY(100%);
@@ -78,7 +78,7 @@
 	}
 
 	&__list-name {
-		color: var(--title-text-color);
+		color: $title-text-color;
 		font-weight: 700;
 		font-size: 18px;
 		line-height: 2;
@@ -87,7 +87,7 @@
 	}
 
 	&__list-text {
-		color: var(--primary-text-color);
+		color: $primary-text-color;
 		font-size: 16px;
 		line-height: 1.88;
 		margin-top: 4px;

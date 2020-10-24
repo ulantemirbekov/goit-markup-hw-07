@@ -19,7 +19,7 @@
 
 		&:hover,
 		&:focus {
-			background-color: var(--accent-color);
+			background-color: $accent-color;
 		}
 	}
 
@@ -33,5 +33,5 @@
 
 .social-list__link:hover .social-list__svg,
 .social-list__link:focus .social-list__svg {
-	fill: var(--primary-white-color);
+	fill: $primary-white-color;
 }

@@ -4,7 +4,7 @@
 }
 
 .logo {
-	color: var(--accent-color);
+	color: $accent-color;
 	text-decoration: none;
 	font-family: Raleway, sans-serif;
 	font-weight: 700;
@@ -30,7 +30,7 @@
 	}
 
 	&__list-link {
-		color: var(--title-text-color);
+		color: $title-text-color;
 		text-decoration: none;
 		font-weight: 500;
 		font-size: 14px;
@@ -41,12 +41,12 @@
 
 		&:hover,
 		&:focus {
-			color: var(--accent-color);
+			color: $accent-color;
 		}
 	}
 
 	&__list-link.current {
-		color: var(--accent-color);
+		color: $accent-color;
 
 		&::after {
 			content: "";
@@ -56,7 +56,7 @@
 			height: 4px;
 			bottom: -40px;
 			left: 0;
-			background: var(--accent-color);
+			background: $accent-color;
 			border-radius: 2px;
 		}
 	}
@@ -75,7 +75,7 @@
 	}
 
 	&__list-link {
-		color: var(--primary-text-color);
+		color: $primary-text-color;
 		text-decoration: none;
 		font-weight: 500;
 		font-size: 14px;
@@ -87,7 +87,7 @@
 
 		&:hover,
 		&:focus {
-			color: var(--accent-color);
+			color: $accent-color;
 		}
 	}
 

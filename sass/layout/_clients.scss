@@ -19,8 +19,8 @@
 
 		&:hover,
 		&:focus {
-			color: var(--accent-color);
-			border: 1px solid var(--accent-color);
+			color: $accent-color;
+			border: 1px solid $accent-color;
 		}
 	}
 
@@ -33,5 +33,5 @@
 
 .clients__list-link:hover .clients__svg,
 .clients__list-link:focus .clients__svg {
-	fill: var(--accent-color);
+	fill: $accent-color;
 }
