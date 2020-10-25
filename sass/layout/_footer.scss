@@ -34,6 +34,10 @@
 		margin-right: 70px;
 	}
 
+	&__social-list {
+		margin-right: 93px;
+	}
+
 	&__social-text {
 		margin-bottom: 20px;
 		font-weight: 700;
@@ -87,6 +91,11 @@
 
 	&__subscribe-form {
 		display: flex;
+	}
+
+	&__subscribe-btn {
+		display: flex;
+		align-items: center;
 	}
 
 	&__subscribe-svg {

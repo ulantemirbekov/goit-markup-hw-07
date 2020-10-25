@@ -641,6 +641,10 @@ body {
   margin-right: 70px;
 }
 
+.footer__social-list {
+  margin-right: 93px;
+}
+
 .footer__social-text {
   margin-bottom: 20px;
   font-weight: 700;
@@ -694,6 +698,11 @@ body {
 
 .footer__subscribe-form {
   display: flex;
+}
+
+.footer__subscribe-btn {
+  display: flex;
+  align-items: center;
 }
 
 .footer__subscribe-svg {
